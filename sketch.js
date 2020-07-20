@@ -1,7 +1,7 @@
 var col = 100;
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(windowWidth, windowHeight);
   bubble1 = new BounceBall(100, 100, 50);
   bubble2 = new BounceBall(300, 200, 50);
   bubble3 = new BounceBall(400, 50, 100);
