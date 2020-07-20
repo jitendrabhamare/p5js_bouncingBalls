@@ -7,7 +7,6 @@ function setup() {
   bubble3 = new BounceBall(400, 50, 100);
 }
 
-
 function draw() {
   background(col);      
   bubble1.show();
@@ -18,5 +17,6 @@ function draw() {
   bubble3.move();
 }
 
-
-  
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}  
